@@ -21,6 +21,7 @@
 		218252BA19761D0C00158A11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2182529C19761D0B00158A11 /* UIKit.framework */; };
 		218252C219761D0C00158A11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218252C019761D0C00158A11 /* InfoPlist.strings */; };
 		218252C419761D0C00158A11 /* LeafButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218252C319761D0C00158A11 /* LeafButtonTests.m */; };
+		218252D019761DD400158A11 /* LeafButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 218252CF19761DD400158A11 /* LeafButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		218252BF19761D0C00158A11 /* LeafButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeafButtonTests-Info.plist"; sourceTree = "<group>"; };
 		218252C119761D0C00158A11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		218252C319761D0C00158A11 /* LeafButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafButtonTests.m; sourceTree = "<group>"; };
+		218252CE19761DD400158A11 /* LeafButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafButton.h; sourceTree = "<group>"; };
+		218252CF19761DD400158A11 /* LeafButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		2182528C19761D0B00158A11 = {
 			isa = PBXGroup;
 			children = (
+				218252CD19761DAA00158A11 /* LeafBtn */,
 				2182529E19761D0B00158A11 /* LeafButton */,
 				218252BD19761D0C00158A11 /* LeafButtonTests */,
 				2182529719761D0B00158A11 /* Frameworks */,
@@ -150,6 +154,15 @@
 				218252C019761D0C00158A11 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		218252CD19761DAA00158A11 /* LeafBtn */ = {
+			isa = PBXGroup;
+			children = (
+				218252CE19761DD400158A11 /* LeafButton.h */,
+				218252CF19761DD400158A11 /* LeafButton.m */,
+			);
+			path = LeafBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +265,7 @@
 				218252AF19761D0B00158A11 /* ViewController.m in Sources */,
 				218252A919761D0B00158A11 /* AppDelegate.m in Sources */,
 				218252A519761D0B00158A11 /* main.m in Sources */,
+				218252D019761DD400158A11 /* LeafButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +470,7 @@
 				218252C919761D0C00158A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		218252CA19761D0C00158A11 /* Build configuration list for PBXNativeTarget "LeafButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +479,7 @@
 				218252CC19761D0C00158A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
